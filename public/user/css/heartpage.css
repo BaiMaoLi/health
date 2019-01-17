@@ -1,0 +1,444 @@
+
+#heart-main{
+    --heart-main-padding:0 0 0 50px;
+
+    --information-part-margin:0 0 0 0;
+
+    --employee-name-heart-margin:6px 0 0 0;    
+    --employee-name-heart-font-size:18px;
+
+    --employee-id-heart-margin:3px 0 15px 0;
+    --employee-id-heart-font-size:12px;
+
+    --employee-id-number-heart-margin:-0.33rem 0 0 0.87rem;
+    --employee-id-number-heart-font-size:14px;
+
+    --heart-icon-heart-font-size:33px;
+    --heart-icon-heart-margin: 50px 0 25px -3px;
+
+    --introduction-part-margin:0 0.33rem -0.8rem 0;
+
+
+    /* ------------------------------Left Side Mark Part------------------------------------- */
+    --mark-part-heart-margin:-7rem 0 0 33rem;
+    --mark-part-heart1-margin:-7rem 0 0 33rem;
+
+
+
+
+
+    --mark-img-height:65px;
+    --mark-img-margin:33px 0 0 15px;
+
+    --line-heart-height:0.067rem;
+    --line-heart-margin:20px 1.33rem 0 0;
+
+    /* For Ambassador*/
+    --wellness-star-name-font-size:12px;
+    --wellness-star-name-margin:31px 0 0 0;
+    --star-icon-heart-font-size:2.1rem;
+    --star-icon-heart-margin: 5px 0 0 0;
+    --mark-star-txt-font-size:2rem;
+    --mark-star-txt-margin:0 0 0 0;
+
+    /* For Non Ambassador*/
+    --wellness-star-name1-font-size:12px;
+    --wellness-star-name1-margin:0px 0 0 0;
+    --star-icon-heart1-font-size:2.1rem;
+    --star-icon-heart1-margin: 5px 0 0 0;
+    --mark-star-txt1-font-size:2rem;
+    --mark-star-txt1-margin:0 0 0 0;
+
+
+
+    --main-section-heart-margin:-0.13rem 0 0 0;
+    --health-category-font-size:19px;
+    --health-category-margin:1.5rem 0 10px 0;
+
+    --my-physical-mark-margin:-0.2rem 0.33rem 0 0.3rem;
+    --my-physical-font-size:21px;
+
+    --progress-heart-border-radius:1.33rem;
+    --progress-heart-margin:-0.133rem 0 0.67rem 1rem;
+    --progress-heart-width:350px;
+    --progress-heart-height:15px;
+
+    --progress-heart-border-radius:15px;
+    --progress-heart-border-height:20px;
+
+    --my-health-star-margin:0 0 0 0;
+    --my-health-star-font-size:0.7rem;
+
+    
+
+    --index-name-margin:0.067rem 0 -0.067rem 0;
+    --index-name-font-size:19px;
+    
+    --note-heart-font-size:17px;
+    --note-heart-margin:0 0 -0.13rem 0;
+
+    --footer-space-padding:13.33rem;
+
+}
+
+
+.heart-menu{
+    background-color: #00538d;
+    color: #eeeeee;
+}
+
+
+
+#heart-main{   
+    padding:var(--heart-main-padding);
+}
+
+
+#employee-name-heart{
+   
+    color:#00538d;    
+    font-size:var(--employee-name-heart-font-size);
+    margin:var(--employee-name-heart-margin);
+    font-family: Raleway;
+    text-shadow: 0.03em 0.01em #6589aa;
+    letter-spacing: -0.01em;
+}
+
+#employee-id-heart{   
+    margin:var(--employee-id-heart-margin);
+    font-size:var(--employee-id-heart-font-size);    
+    color:#666666;
+    letter-spacing: -0.01em;
+    font-family: Raleway;
+  
+}
+#employee-id-number-heart
+{
+    
+    margin:var(--employee-id-number-heart-margin);
+    font-size:var(--employee-id-number-heart-font-size);
+    color:#00538d;
+    font-family: Raleway;
+    letter-spacing: -0.01em;
+    text-shadow:0.02em 0.01em;
+   
+}
+#information-part{   
+    margin:var(--information-part-margin);
+    /* border:1px solid red; */
+}
+
+#introduction-part{   
+    margin:var(--introduction-part-margin);
+
+
+}
+#mark-part-heart{  
+    margin:var(--mark-part-heart-margin);
+}
+
+#mark-part-heart1{
+    margin:var(--mark-part-heart1-margin);
+    float:right;
+}
+
+
+
+
+#mark-img{    
+    
+    margin:var(--mark-img-margin);
+    height:var(--mark-img-height);  
+    width: auto;
+}
+#heart-icon-heart{ 
+    font-size:var(--heart-icon-heart-font-size);
+    margin:var(--heart-icon-heart-margin);  
+    color:#00538d;
+}
+#wellness-star-name{   
+    font-size:var(--wellness-star-name-font-size);
+    margin:var(--wellness-star-name-margin);
+    color:#a7a8a3;
+    font-family: Raleway;
+    letter-spacing: -0.01em;
+    text-shadow: 0.02em 0.01em;
+}
+
+.line-heart{   
+    /*height:var(--line-heart-height);*/
+    margin:var(--line-heart-margin);
+    background-color:#959595;
+
+}
+
+#mark-star-txt{
+    margin:var(--mark-star-txt-margin);
+   font-size:var(--mark-star-txt-font-size);    
+    color:#767676;    
+    font-family:Raleway;
+    color:#777777;
+    /* text-shadow: 0.03rem 0.03rem; */
+    font-weight: bold;
+
+}
+#star-icon-heart{
+    margin:var(--star-icon-heart-margin);
+    font-size:var(--star-icon-heart-font-size);
+    color:#00538d;
+    opacity: 0.9;
+}
+
+.main-section-heart{   
+    margin:var(--main-section-heart-margin);
+}
+
+
+.my-physical-mark{   
+    
+    font-size:var(--my-physical-font-size);
+    margin:var(--my-physical-mark-margin);
+    color:#767676;    
+    font-family: var(--sanspro-font);
+    letter-spacing: -0.005em;
+}
+
+
+div.progress,.progress-heart{
+    margin:var(--progress-heart-margin);
+    width:var(--progress-heart-width);
+    height: var(--progress-heart-border-height);
+    border-radius:var(--progress-heart-border-radius);
+    
+    /* height:var(--progress-heart-height);     */
+    background: #bebfbf;  
+}
+.progress-bar-heart{
+    border-radius:var(--progress-heart-border-radius);
+    height: var(--progress-heart-border-height);
+    background-color:#7cc242;
+}
+
+.health-category{
+   
+    margin:var(--health-category-margin);
+    font-size:var(--health-category-font-size);
+    color:#767676;
+    font-family: Raleway;
+    letter-spacing: -0.01em;        
+    text-shadow: 0.03em 0.01em;
+    letter-spacing: -0.01em;
+}
+
+#wellness-star-name1{
+    font-size:var(--wellness-star-name1-font-size);
+    margin:var(--wellness-star-name1-margin);
+    margin-top:120px;
+    color:#a7a8a3;
+    font-family: Raleway;
+    letter-spacing: -0.01em;
+    text-shadow: 0.02em 0.01em;
+}
+
+#mark-star-txt1{
+    margin:var(--mark-star-txt1-margin);
+    font-size:var(--mark-star-txt1-font-size);
+    color:#767676;
+    font-family:Raleway;
+    color:#777777;
+    /* text-shadow: 0.03rem 0.03rem; */
+    font-weight: bold;
+
+}
+#star-icon-heart1{
+    margin:var(--star-icon-heart1-margin);
+    font-size:var(--star-icon-heart1-font-size);
+    color:#00538d;
+    opacity: 0.9;
+}
+
+
+
+
+.my-health-star{
+  
+    margin:var(--my-health-star-margin);
+    font-size:var(--my-health-star-font-size);    
+    color:#00538d;
+}
+.index-name{       
+    font-size:var(--index-name-font-size);
+    margin:var(--index-name-margin);
+  color:#767676;
+
+  font-family: Raleway;
+  letter-spacing: -0.01em;        
+  text-shadow: 0.02em 0.01em;
+  letter-spacing: -0.01em;
+  
+}
+.check-icon{
+    color:#7cc242;
+}
+.note-heart{   
+    margin:var(--note-heart-margin);
+    font-size:var(--note-heart-font-size);
+    font-style: italic;    
+    color:#a7a8a3;
+    font-family: Raleway;
+    letter-spacing: -0.01em;        
+    
+}
+
+.allert-fa{
+    position:relative;
+}
+
+
+@media screen and (max-width:480px){
+    #heart-main{             
+         /* ----------------------------------------------Progress Part-------------------------------------------------------------------------------------------------------------- */
+        --main-section-heart-margin:-0.13rem 0 0 0;
+
+        --health-category-font-size:1rem;
+        --health-category-margin:1rem 0 0.5rem 0;
+
+        --my-physical-mark-margin:-0.3rem 0.33rem 0 0.3rem;
+        --my-physical-font-size:1.1rem;
+        --progress-heart-border-radius:1rem;        
+        --progress-heart-width:calc( 50vw + (100vw - 320px ) * 0.3 );
+        --progress-heart-height:1rem;
+
+        --my-health-star-font-size:0.9rem;
+    
+        
+        --progress-heart-border-height:1.1rem;
+    
+            
+        --index-name-margin:0.067rem 0rem -0.07rem -0.2rem;
+        --index-name-font-size:1rem;
+        
+        --note-heart-font-size:0.9rem;
+        --note-heart-margin:0 0.7rem -0.1rem -0.2rem;
+    
+        --footer-space-padding:13.33rem;       
+    }  
+}
+
+
+/* Start All finished in this width range */
+@media screen and (max-width:414px){
+    #heart-main{
+        --heart-main-padding:0 0 0 2rem;
+    /* ------------------------------------------Information Side------------------------- */
+    
+
+/* ---------------------------------------Mark Side--------------------------------------------- */
+--heart-icon-heart-font-size:2rem;
+    --mark-part-heart-margin:-2.6rem 0 0 4.2rem;
+    --mark-part-heart1-margin:-7.0rem 0 0 calc( 5.5rem - 414px + 100vw);
+
+    --wellness-star-name-font-size:0.75rem;
+    --wellness-star-name-margin:0rem 0.5rem 0 0rem;
+
+    --mark-img-height:2rem;
+    --mark-img-margin:0 0 0 0rem;
+
+    --line-heart-height:0.067rem;
+    --line-heart-margin:1rem 1.33rem 0 0;
+
+    --star-icon-heart-font-size:1rem;
+    --star-icon-heart-margin: 0.2rem 0 0 0rem;
+    --mark-star-txt-font-size:1rem;
+    --mark-star-txt-margin:0 0 0 0;
+}
+}
+
+@media screen and (min-width:415px) and (max-width:480px){
+    #heart-main{
+    --mark-part-heart-margin:-5.5rem 0 0 13rem;
+    --mark-part-heart1-margin:-13.5rem 0 0 calc(16.5rem - 480px + 100vw);
+    --wellness-star-name-font-size:0.8rem;
+    --wellness-star-name-margin:0rem -0.5rem 0 0rem;
+
+
+    --mark-img-height:2.5rem;
+    --mark-img-margin:0.2rem 0 0 0.5rem;
+
+    --line-heart-height:0.067rem;
+    --line-heart-margin:1rem 1.33rem 0 0;
+
+    --star-icon-heart-font-size:1.3rem;
+    --star-icon-heart-margin: 0.2rem 0 0 0rem;
+    --mark-star-txt-font-size:1.3rem;
+    /* --mark-star-txt-margin:0 0 0 0; */
+}
+
+}
+/*ENd  ---------------------------- */
+
+
+@media screen and (min-width:481px) and (max-width:604px){
+    #heart-main{
+        /* --mark-part-heart-margin:-7rem 0 0 calc( 13rem - 100vw +480px ); */
+        /* --mark-part-heart-margin:-7rem 0 0 calc( 13rem + 100vw - 533px ); */
+        --mark-part-heart-margin:-5.5rem 0 0 calc( 13rem + 100vw - 530px );
+        --mark-part-heart1-margin:-13.5rem 0 0 calc( 20rem + 100vw - 530px );
+        
+        /* --mark-part-heart-margin:-7rem 0 0 13rem;  */
+    --wellness-star-name-font-size:0.9rem;
+    --wellness-star-name-margin:0rem -0.5rem 0 0rem;
+
+    --mark-img-height:3.5rem;
+    --mark-img-margin:0.2rem 0 0 0.5rem;
+
+    --line-heart-height:0.067rem;
+    --line-heart-margin:1rem 1.33rem 0 0;
+
+    --star-icon-heart-font-size:1.3rem;
+    --star-icon-heart-margin: 0.2rem 0 0 0rem;
+    --mark-star-txt-font-size:1.3rem;
+
+        
+    }
+}
+
+@media screen and (min-width:604px) and (max-width:853px){
+    #heart-main{
+        --mark-part-heart-margin:-7.5rem 0 0 calc( 11.5rem + 100vw - 530px );
+        --mark-part-heart1-margin:-7.5rem 0 0 calc( 11.5rem + 100vw - 530px );
+    }
+}
+@media screen and (width: 768px)
+{
+    #heart-main{
+        /* --mark-part-heart-margin: 1.5rem 0 0 calc( 13rem + 100vw - 700px ); */
+        --mark-part-heart-margin:-7.5rem 0 0 calc( 11.5rem + 100vw - 530px );
+
+    }
+    
+
+}
+
+
+
+
+
+
+
+/* Start.  Set the Progress Part */
+ @media screen and (min-width:481px) and (max-width:604px){
+    #heart-main{
+
+    --my-physical-mark-margin:-0.3rem 0.33rem 0 0.3rem;
+    --my-physical-font-size:1.1rem;
+    --progress-heart-border-radius:1rem;        
+    --progress-heart-width:calc( 50vw + (100vw - 480px ) * 0.4 );
+    --progress-heart-height:1rem;
+    --health-category-margin:1rem -1rem 1rem 0;
+    --note-heart-margin:0 2rem -0.1rem -0.2rem;
+
+}}
+
+
+

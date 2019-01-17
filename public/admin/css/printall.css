@@ -1,0 +1,170 @@
+
+body{
+    background: #eee;
+}
+.print-container{
+    max-width:1000px !important;
+    min-height:90vh;
+    margin:50px auto;
+    background: #fff;
+    padding:0 60px;
+    padding-bottom:50px;
+}
+
+.button-part{
+    max-width:1000px !important;
+    margin:50px auto;
+
+}
+
+.logo-area{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.logo-img{
+    display:block;
+    margin:auto;
+}
+
+.content-area{
+
+}
+
+.user-name{
+    font-family:'Raleway medium',sans-serif;
+    color:#00538d;
+
+    font-size:20px;
+}
+
+.wellness-star{
+    font-size:18px;
+    color:#666666;
+    font-family: "Myriad Pro",sans-serif;
+    font-weight:500 !important;
+}
+
+.star-marks{
+    margin-left:10px;
+    color:#00538d;
+}
+.total-star{
+    margin-left:3px;
+    color:#00538d;
+    font-size:20px;
+}
+
+.detail-part{
+    margin:0 !important;
+}
+
+.task-title{
+    font-size:14px;
+    color:#666666;
+    font-weight:600;
+}
+
+.task-progress{
+    margin:0 !important;
+}
+.progress-bar-out{
+    width:70%;
+    background:#cecece;
+    height:12px;
+    border-radius:6px;
+    overflow:hidden;
+}
+
+.task-detail-part{
+    padding:0 !important;
+    margin-bottom:30px;
+}
+.progress-bar{
+    background: #7cc242;
+    height:100%;
+}
+.sub-star-marks{
+    margin-top:-5px;
+    margin-left:3px;
+    color:#00538d;
+    /*font-size:14px;*/
+}
+
+.information-holder{
+    padding:0;
+}
+
+.information-label{
+    font-family: "Myriad Pro",sans-serif;
+    font-size:16px;
+    color:#666666;
+    font-weight:normal !important;
+}
+.information-data{
+    margin-left:5px;
+    color:#00538d;
+}
+
+.place-information-holder{
+    padding:0;
+    margin-top:25px;
+}
+
+.task-list-container{
+    /*min-height:300px;*/
+    margin-top:50px;
+}
+
+.task-list-title{
+    font-family: "Raleway medium",sans-serif;
+    font-size:20px;
+    color:#00538d;
+    margin-bottom:15px;
+}
+
+.task-list-table th,tr{
+    text-align: center;
+}
+
+.warning-title{
+    margin-top:-5px;
+    margin-right:3px;
+}
+
+
+
+.print{
+    float:right;
+    width:80px;
+}
+.back{
+    float:right;
+    width:80px;
+    margin-right:10px;
+}
+
+@media print{
+    .button-part{
+        display: none !important;
+    }
+    .progress-bar-out{
+        display:block;
+        background:#cecece !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+}
+
+
+.add-new,.btn-success,.btn-primary,.btn-warning{
+    background:#7cc242;
+}
+
+.btn-block{
+    width:150px;
+    border-radius:16px;
+    margin:auto;
+}
+.block-td{
+    width:170px;
+}

@@ -1,0 +1,14 @@
+[18-Oct-2018 12:49:02 UTC] PHP Notice:  Undefined index: argv in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 53
+[18-Oct-2018 12:49:02 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 57
+[18-Oct-2018 12:50:01 UTC] PHP Notice:  Undefined index: argv in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 53
+[18-Oct-2018 12:50:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 57
+[18-Oct-2018 12:51:01 UTC] PHP Notice:  Undefined index: argv in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 53
+[18-Oct-2018 12:51:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 57
+[18-Oct-2018 12:52:01 UTC] PHP Notice:  Undefined index: argv in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 53
+[18-Oct-2018 12:52:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 57
+[18-Oct-2018 12:53:01 UTC] PHP Notice:  Undefined index: argv in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 53
+[18-Oct-2018 12:53:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 57
+[18-Oct-2018 12:54:01 UTC] PHP Notice:  Undefined index: argv in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 53
+[18-Oct-2018 12:54:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 57
+[18-Oct-2018 13:01:01 UTC] PHP Notice:  Undefined index: argv in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 53
+[18-Oct-2018 13:01:01 UTC] PHP Warning:  array_shift() expects parameter 1 to be array, null given in /home/y66q1hf1gnav/public_html/vendor/symfony/console/Input/ArgvInput.php on line 57

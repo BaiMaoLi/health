@@ -1,0 +1,92 @@
+
+#calendar{
+    align-content: center;
+    align-items: center;
+    position: relative;
+    height:250px;
+}
+.calendar-calendar-table *{
+    color: #000000;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.calendar-calendar-table td{
+    height: 30px;
+    width: 38px;
+    margin: 0px 0px 0 0;
+    text-align: center;
+    font-size: 10px;
+    cursor: default;
+    transition: color 0.1s, background-color 0.2s;
+}
+.calendar-calendar-table th{
+    text-align: center;
+    font-size: 11.63px;
+    border-radius: 14px;
+    padding-bottom:5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom:15px;
+}
+
+.calendar-month-display-bar{
+    margin-bottom:15px;
+
+}
+
+
+.calendar-prev-month, .calendar-next-month,.calendar-current-month{
+    font-size:13.57px;
+    font-family: Raleway;
+    text-align: center;
+    padding: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+
+.calendar-prev-month, .calendar-next-month{
+    color: #cfcfcf;
+}
+.calendar-prev-month-days,.calendar-next-month-days{
+    color: #cfcfcf;
+}
+
+.calendar-calendar-table .calendar-event-days{
+    background-color: #7cc242;
+    cursor: pointer;
+    color:#e4e4e4;
+}
+.calendar-calendar-table .calendar-event-days:hover{
+    background-color: #7cc242;
+    cursor: pointer;
+}
+.date_content{
+    background: none;
+    border: none;
+    width: 23px;
+    height:23px;
+    border-radius: 20px;
+    disabled: disabled;
+    text-align: center;
+    line-height:23px;
+}
+.calendar-calendar-table .date_registered{
+    background-color: #00538d;
+}
+
+.calendar-calendar-table .date_registered:hover{
+    background-color: #00538d;
+}
+
+
+.date_content:hover{
+    background-color: #e6e6e6;
+}
+
+
+
+
+
+
+
+
+
+

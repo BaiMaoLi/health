@@ -1,0 +1,172 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "fd59eac4d575b48eb156590b63a355fd",
+      "css": "emo-sleep",
+      "code": 59395,
+      "src": "fontelico"
+    },
+    {
+      "uid": "142263941b9f4cd4b2b84f1f4cd13b1d",
+      "css": "emo-thumbsup",
+      "code": 59396,
+      "src": "fontelico"
+    },
+    {
+      "uid": "68e298ff2d8b25dd7f647ed64f5ae690",
+      "css": "emo-surprised",
+      "code": 59398,
+      "src": "fontelico"
+    },
+    {
+      "uid": "bb68a13a3574b087d4350eff0b8d48e3",
+      "css": "emo-tongue",
+      "code": 59399,
+      "src": "fontelico"
+    },
+    {
+      "uid": "48cc210e59ff4bc56b6c8fba6eb384b8",
+      "css": "emo-coffee",
+      "code": 59400,
+      "src": "fontelico"
+    },
+    {
+      "uid": "9c2b737b16ae2c8d66b7bfd29ba5ecd8",
+      "css": "chrome",
+      "code": 59457,
+      "src": "fontelico"
+    },
+    {
+      "uid": "45861dd1e5ce4fde338bcccf01eeb808",
+      "css": "opera",
+      "code": 59458,
+      "src": "fontelico"
+    },
+    {
+      "uid": "2a46f1d1c9bd036e17a74e46613c1636",
+      "css": "ie",
+      "code": 59459,
+      "src": "fontelico"
+    },
+    {
+      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
+      "css": "heart-empty",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "474656633f79ea2f1dad59ff63f6bf07",
+      "css": "star",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d17030afaecc1e1c22349b99f3c4992a",
+      "css": "star-empty",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "99852af2eced47accee4174b1163828f",
+      "css": "heart",
+      "code": 59402,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M517.4 947.8A51.7 51.7 0 0 1 478.1 929L130.9 521A281.4 281.4 0 0 1 87.7 190.6 253.6 253.6 0 0 1 251.3 58 231.7 231.7 0 0 1 451.1 111.2 264.8 264.8 0 0 1 494.9 158.6L516.6 188.7 537.6 158.2A254.6 254.6 0 0 1 573.6 116.4 219.4 219.4 0 0 1 752.1 57.5 256.3 256.3 0 0 1 964.7 282.9 297.8 297.8 0 0 1 894.6 523.1L556.9 928.9A51.8 51.8 0 0 1 517.6 948.1H517.6V1000.5H518A104 104 0 0 0 597.5 962.4L935.4 556.7A350.6 350.6 0 0 0 1016.9 275.3 308.6 308.6 0 0 0 758.9 5.2 271.8 271.8 0 0 0 538.6 77.8 306.5 306.5 0 0 0 495.1 128.2L516.6 143.2 537.8 127.7A321.9 321.9 0 0 0 485.4 70.9 283.9 283.9 0 0 0 241 6.5 305.5 305.5 0 0 0 42.1 165.4 333.3 333.3 0 0 0 92.3 556.1L438.7 963.2A104 104 0 0 0 517.8 1000.4V948Z",
+        "width": 1020
+      },
+      "search": [
+        "heart"
+      ]
+    },
+    {
+      "uid": "d29fc828dd02556f51d50ff2328bbfa9",
+      "css": "notification",
+      "code": 59401,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M906.8 770.8H806.9L775.2 450.2A327.6 327.6 0 0 0 486.7 114V22.3A22.1 22.1 0 1 0 442.5 22.3V114A326.6 326.6 0 0 0 154 448.4L122.2 771H22.4A22.1 22.1 0 0 0 22.4 815.2H261.4A204.5 204.5 0 0 0 668 815.2H906.8A22.1 22.1 0 0 0 906.8 770.8ZM464.6 954.8A161.1 161.1 0 0 1 305.7 815.2H623.4A161.1 161.1 0 0 1 464.6 954.8ZM166.5 770.8L198 450.2A281.3 281.3 0 0 1 464.6 156.9 281.9 281.9 0 0 1 731.3 452.6L762.6 770.8H166.5Z",
+        "width": 929
+      },
+      "search": [
+        "notification"
+      ]
+    },
+    {
+      "uid": "157f2382d2c608c41d984c693174c83b",
+      "css": "ok-circle",
+      "code": 59397,
+      "src": "websymbols"
+    },
+    {
+      "uid": "b50bdfb03ec13c11ff72329eb70b3e2e",
+      "css": "paper-plane-alt",
+      "code": 61471,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "bae44ce7d5b26bf081c7b90f6c0f247e",
+      "css": "home",
+      "code": 59403,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M963.3 1000.8A59.9 59.9 0 0 0 1023.4 941.1V468.3A203 203 0 0 0 949.7 311.8L617.3 35.1A168.8 168.8 0 0 0 406.5 35.1L74 311.8A203.2 203.2 0 0 0 0.3 468.3V941.1A59.9 59.9 0 0 0 60.4 1000.8H963.3ZM963.3 950.9H60.4A9.9 9.9 0 0 1 50.3 941.4V468.5A152.9 152.9 0 0 1 105.9 350.7L438.3 73.9A119.1 119.1 0 0 1 585.5 73.9L917.8 350.7A152.8 152.8 0 0 1 973.5 468.5V941.4A9.9 9.9 0 0 1 963.3 950.7Z",
+        "width": 1023
+      },
+      "search": [
+        "home"
+      ]
+    },
+    {
+      "uid": "0ac19ff0b9e3a77e68308453022e160e",
+      "css": "edit_profile",
+      "code": 59404,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M626.3 497.1A266.1 266.1 0 1 0 368.2 497.1 495.6 495.6 0 0 0 0 974.3 25.5 25.5 0 0 0 51.4 974.3 445.8 445.8 0 0 1 943.1 974.3 25.5 25.5 0 0 0 994.5 974.3 495.6 495.6 0 0 0 626.3 497.1M282.5 265.7A214.8 214.8 0 1 1 497.3 479.4 214.4 214.4 0 0 1 282.5 265.7",
+        "width": 994
+      },
+      "search": [
+        "edit_profile"
+      ]
+    },
+    {
+      "uid": "e7b86de6a7718a66e6196c4d62e5f09a",
+      "css": "event",
+      "code": 59405,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M0 111.1H55.6V1000H0V111.1ZM55.6 1000V944.4H1055.6V1000H55.6ZM1055.6 111.1H1111.1V1000H1055.6V111.1ZM0 166.7V111.1H1111.1V166.7H0ZM277.8 0H333.3V222.2H277.8V0ZM777.8 0H833.3V222.2H777.8V0Z",
+        "width": 1111
+      },
+      "search": [
+        "event"
+      ]
+    },
+    {
+      "uid": "59fd3dd3315b581d6c533f4d5ad47e92",
+      "css": "event",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": false,
+      "svg": {
+        "path": "",
+        "width": 1111
+      },
+      "search": [
+        "event"
+      ]
+    }
+  ]
+}
