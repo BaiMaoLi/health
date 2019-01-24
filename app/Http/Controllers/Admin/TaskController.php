@@ -193,7 +193,7 @@ class TaskController extends Controller
                 $age=(int)$this_year-(int)(new \DateTime($profile->birthday))->format('Y');
                 if ($age>=$task_age and ($profile->gender==$task_gender or $task_gender=="Both")){
                     $unregistered_users[$k]=$user;
-                    $user->notify(new UserAlert($request->input('alert_title'),$request->input('alert_body')));
+//                    $user->notify(new UserAlert($request->input('alert_title'),$request->input('alert_body')));
                     $k++;
                 }
             }
@@ -219,7 +219,7 @@ class TaskController extends Controller
                 $age=(int)$this_year-(int)(new \DateTime($profile->birthday))->format('Y');
                 if ($age>=$task_age and ($profile->gender==$task_gender or $task_gender=="Both")){
                     $unregistered_users[$k]=$user;
-                    $user->notify(new UserAlert($request->input('alert_title'),$request->input('alert_body')));
+//                    $user->notify(new UserAlert($request->input('alert_title'),$request->input('alert_body')));
                     $k++;
                 }
             }

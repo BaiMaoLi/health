@@ -83,12 +83,12 @@ class EventController extends Controller
 //        return "fdfd";
         if(Input::hasFile('featured_picture')){
             $featured_picture = $request->file('featured_picture');
-            $featured_picture->move(public_path().'/event_pictures',$featured_picture->getClientOriginalName());
+//            $featured_picture->move(public_path().'/event_pictures',$featured_picture->getClientOriginalName());
             $event->featured_picture =$featured_picture->getClientOriginalName();;
         }
         if(Input::hasFile('slide_picture')){
             $featured_picture = $request->file('slide_picture');
-            $featured_picture->move(public_path().'/slide_pictures',$featured_picture->getClientOriginalName());
+//            $featured_picture->move(public_path().'/slide_pictures',$featured_picture->getClientOriginalName());
             $event->slide_picture = $featured_picture->getClientOriginalName();;
         }
 
@@ -176,7 +176,7 @@ class EventController extends Controller
         $event=Event::find($id);
         if(Input::hasFile('featured_picture')){
             $featured_picture = $request->file('featured_picture');
-            $featured_picture->move(public_path().'/event_pictures',$featured_picture->getClientOriginalName());
+//            $featured_picture->move(public_path().'/event_pictures',$featured_picture->getClientOriginalName());
             if (!is_null($event->featured_picture)){
                 $file_name='public/event_pictures/'.$event->featured_picture;
                 if (file_exists($file_name))
@@ -186,7 +186,7 @@ class EventController extends Controller
         }
         if(Input::hasFile('slide_picture')){
             $featured_picture = $request->file('slide_picture');
-            $featured_picture->move(public_path().'/slide_pictures',$featured_picture->getClientOriginalName());
+//            $featured_picture->move(public_path().'/slide_pictures',$featured_picture->getClientOriginalName());
             if (!is_null($event->slide_picture)){
                 $file_name='public/slide_pictures/'.$event->slide_picture;
                 if (file_exists($file_name))
