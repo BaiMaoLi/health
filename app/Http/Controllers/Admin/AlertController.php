@@ -32,7 +32,6 @@ class AlertController extends Controller
         $i=0;
         for ($i=0;$i<count($selected_user);$i++){
             $user=User::find($selected_user[$i]);
-            $user->notify(new UserAlert($request->input('alert_title'),$request->input('alert_body')));
         }
         session()->forget('selected_ids_for_alert');
         return redirect('admin/alert_page')->with('message','Message was transmitted successfully');
